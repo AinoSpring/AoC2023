@@ -6,6 +6,8 @@
   (:require aoc2023.day2e)
   (:require aoc2023.day3)
   (:require aoc2023.day3e)
+  (:require aoc2023.day4)
+  (:require aoc2023.day4e)
   (:require aoc2023.loader)
   )
 
@@ -17,4 +19,6 @@
   (println (aoc2023.day2e/solve (aoc2023.loader/load-data "day2")))
   (println (aoc2023.day3/solve (aoc2023.loader/load-data "day3")))
   (println (aoc2023.day3e/solve (aoc2023.loader/load-data "day3")))
+  (println (aoc2023.day4/solve (aoc2023.loader/load-data "day4")))
+  (println (aoc2023.day4e/solve (aoc2023.loader/load-data "day4")))
   )
